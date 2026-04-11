@@ -1,4 +1,18 @@
 ---
 title: "Hands-on Exercise 1"
 author: "Lei Yuhe"
+date: "11 Apr 2026"
+date-modified: "last-modified"
+execute: 
+  eval: true
+  echo: true
+  freeze: true
 ---
+
+```{r}
+pacman::p_load(tidyverse)
+```
+
+```{r}
+exam_data <- read_csv("data/Exam_data.csv")
+```
